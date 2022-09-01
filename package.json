@@ -15,8 +15,8 @@
     "oleez-landing-page",
     "bs4-landing-page"
   ],
-  "author": "Bootstrapdash",
-  "license": "Bootstrapdash Licence<https://www.BootstrapDash.com/license/>",
+  "author": "greencrests",
+  "license": "greencrests Licence<https://www.greencrests.com/license/>",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "del": "^5.1.0",
