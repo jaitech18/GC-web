@@ -1,386 +1,417 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Edica :: Home</title>
-    <link rel="stylesheet" href="assets/vendors/flag-icon-css/css/flag-icon.min.css">
-    <link rel="stylesheet" href="assets/vendors/font-awesome/css/all.min.css">
-    <link href="assets/vendors/aos/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/vendors/jquery/jquery.min.js"></script>
-    <script src="assets/js/loader.js"></script>
+  <title>Simple landing page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="vendors/owl-carousel/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/css/owl.theme.default.css">
+  <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="vendors/aos/css/aos.css">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
-<body>
-    <div class="edica-loader"></div>
-    <header class="edica-header edica-landing-header">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="index.html"><img width="100px" height="70px" src="assets/images/logo_test.png" alt="Edica"></a>
-                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#edicaMainNav" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="edicaMainNav">
-                    <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="blogDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
-                            <div class="dropdown-menu" aria-labelledby="blogDropdown">
-                                <a class="dropdown-item" href="blog.html">Blog Archive</a>
-                                <a class="dropdown-item" href="blog-single.html">Blog Post</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                            <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-                                <a class="dropdown-item" href="404.html">404</a>
-                                <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav mt-2 mt-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><span class="flag-icon flag-icon-squared rounded-circle flag-icon-gb"></span> Eng</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Download</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <div class="edica-landing-header-content">
-               <div id="edicaLandingHeaderCarousel" class="carousel slide" data-ride="carousel">
-                   <ol class="carousel-indicators">
-                       <li data-target="#edicaLandingHeaderCarousel" data-slide-to="0" class="active">*Moto</li>
-                       <li data-target="#edicaLandingHeaderCarousel" data-slide-to="1">*Vision</li>
-                       <li data-target="#edicaLandingHeaderCarousel" data-slide-to="2">*P&S</li>
-                   </ol>
-                   <div class="carousel-inner" role="listbox">
-                       <div class="carousel-item active">
-                           <div class="row">
-                               <div class="col-md-6 carousel-content-wrapper">
-                                   <h1 >OUR MOTTO – TO WORK WITH PASSION</h1>
-                                   <p>We are global apparel sourcing, complete end to end solution service providers for apparel, home textiles and Household categories. We manage & facilitate global supply chain requirements for our esteemed clients.</p>
-                                   <!-- <div class="carousel-content-btns">
-                                       <a href="#!" class="btn btn-success"> <i class="fab fa-apple mr-2"></i> App Store</a>
-                                       <a href="#!" class="btn btn-secondary"> <i class="fab fa-android mr-2"></i>  Google Play</a>
-                                    </div> -->
-                               </div>
-                               <div class="col-md-6 carousel-img-wrapper">
-                                   <img src="assets/images/Slider_1-removebg-preview.png" alt="carousel-img" class="img-fluid" width="350px">
-                               </div>
-                           </div>
-                       </div>
-                       <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-md-6 carousel-content-wrapper">
-                                    <h1>Our Vision</h1>
-                                    <p>With vision of constantly evolving global demands, we are intensely focused on development, expansion & training of our sourcing partners to provide “Cost Optimization with Product Value”, “Speed to Market” and evolving SOP’s to deliver High Quality product which is close to end customer’s heart.</p>
-                                    <!-- <div class="carousel-content-btns">
-                                        <a href="#!" class="btn btn-success"> <i class="fab fa-apple mr-2"></i> App Store</a>
-                                        <a href="#!" class="btn btn-secondary"> <i class="fab fa-android mr-2"></i> Google Play</a>
-                                    </div> -->
-                                </div>
-                                <div class="col-md-6 carousel-img-wrapper">
-                                    <img src="assets/images/Slider_1.png" alt="carousel-img" class="img-fluid" width="350px">
-                                </div>
-                            </div>
-                       </div>
-                       <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-md-6 carousel-content-wrapper">
-                                    <h1>Our Products and Services</h1>
-                                    <p>Green Crests offers our customers an exclusive collection of product ranges which includes Home Textiles, Apparel, Gloves, Home décors and household products. We are expertise to provide a pleasant, hassle free sourcing in raw materials, Products sampling, Sample development, vendor selection, Product development in bulk, ensure quality control, logistics and shipment follow-up and negotiate prices for overseas buy. We assist the manufacturer in developing the correct samples. We offer end to end sourcing services to international companies, so that global brands can build and grow their business. Our motto is to make buying a pleasant and profitable experience for our clients.</p>
-                                    <!-- <div class="carousel-content-btns">
-                                        <a href="#!" class="btn btn-success"> <i class="fab fa-apple mr-2"></i> App Store</a>
-                                        <a href="#!" class="btn btn-secondary"> <i class="fab fa-android mr-2"></i> Google Play</a>
-                                    </div> -->
-                                </div>
-                                <div class="col-md-6 carousel-img-wrapper">
-                                    <img src="assets/images/Slider_1.png" alt="carousel-img" class="img-fluid" width="350px">
-                                </div>
-                            </div>
-                       </div>
-                   </div>
-               </div> 
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
+  <header id="header-section">
+    <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar">
+    <div class="container">
+      <div class="navbar-brand-wrapper d-flex w-100">
+        <img src="images/Group2.jpeg" alt="">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="mdi mdi-menu navbar-toggler-icon"></span>
+        </button> 
+      </div>
+      <div class="collapse navbar-collapse navbar-menu-wrapper" id="navbarSupportedContent">
+        <ul class="navbar-nav align-items-lg-center align-items-start ml-auto">
+          <li class="d-flex align-items-center justify-content-between pl-4 pl-lg-0">
+            <div class="navbar-collapse-logo">
+              <img src="images/Group2.jpeg" alt="">
             </div>
+            <button class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="mdi mdi-close navbar-toggler-icon pl-5"></span>
+            </button>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#header-section">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features-section">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#digital-marketing-section">Blog</a>  
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#feedback-section">Testimonials</a>
+          </li>
+          <li class="nav-item btn-contact-us pl-4 pl-lg-0">
+            <button class="btn btn-info" data-toggle="modal" data-target="#exampleModal">Contact Us</button>
+          </li>
+        </ul>
+      </div>
+    </div> 
+    </nav>   
+  </header>
+  <div class="banner" >
+    <div class="container">
+      <h1 class="font-weight-semibold">Search engine optimisation &<br>Marketing.</h1>
+      <h6 class="font-weight-normal text-muted pb-3">Simple is a simple template with a creative design that solves all your marketing and SEO queries.</h6>
+      <div>
+        <button class="btn btn-opacity-light mr-1">Get started</button>
+        <button class="btn btn-opacity-success ml-1">Learn more</button>
+      </div>
+      <img src="images/Group171.svg" alt="" class="img-fluid">
+    </div>
+  </div>
+  <div class="content-wrapper">
+    <div class="container">
+      <section class="features-overview" id="features-section" >
+        <div class="content-header">
+          <h2>How does it works</h2>
+          <h6 class="section-subtitle text-muted">One theme that serves as an easy-to-use operational toolkit<br>that meets customer's needs.</h6>
         </div>
-    </header>
-
-    <main>
-        <section class="edica-landing-section edica-landing-about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6" data-aos="fade-up-right">
-                        <h4 class="edica-landing-section-subtitle-alt">ABOUT US</h4>
-                        <h2 class="edica-landing-section-title">Green Crests prides itself on helping companies develop sourcing strategies for a sustainable future.</h2>
-                        <p>Our team backed with a professional experience of over 20 years of working in Buying Agencies to independently handling major accounts worldwide. An end-to-end sourcing solutions provider for the home textiles and Household category. To realize the full potential of the experience gained over the years along with the vast pool of vendors, products, sourcing processes and market knowledge – Green Crests Sourcing Company offers services to the most discerning clients from across the world.</p>
-                        <ul class="landing-about-list">
-                            <li>Powerful and flexible theme</li>
-                            <li>Simple, transparent pricing</li>
-                            <li>Build tools and full documention</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6" data-aos="fade-up-left">
-                        <img src="assets/images/phone-copy.png" width="468px" alt="about" class="img-fluid">
-                    </div>
-                </div>
+        <div class="d-md-flex justify-content-between">
+          <div class="grid-margin d-flex justify-content-start">
+            <div class="features-width">
+              <img src="images/Group12.svg" alt="" class="img-icons">
+              <h5 class="py-3">Speed<br>Optimisation</h5>
+              <p class="text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+              <a href="#"><p class="readmore-link">Readmore</p></a>  
             </div>
-        </section>
-        <section class="edica-landing-section edica-landing-clients">
-            <div class="container">
-                <h4 class="edica-landing-section-subtitle-alt">PARTNER WITH US</h4>
-                <div class="partners-wrapper">
-                    <img src="assets/images/Partner_1.png" alt="client logo" data-aos="flip-right" data-aos-delay="250">
-                    <img src="assets/images/Partner_2.png" alt="client logo" data-aos="flip-right" data-aos-delay="500">
-                    <img src="assets/images/Partner_3.png" alt="client logo" data-aos="flip-right" data-aos-delay="750">
-                    <img src="assets/images/Partner_4.png" alt="client logo" data-aos="flip-right" data-aos-delay="1000">
-                    <img src="assets/images/Partner_5.png" alt="client logo" data-aos="flip-right" data-aos-delay="1250">
-                    <img src="assets/images/Partner_6.png" alt="client logo" data-aos="flip-right" data-aos-delay="1500">
-                </div>
+          </div>
+          <div class="grid-margin d-flex justify-content-center">
+            <div class="features-width">
+              <img src="images/Group7.svg" alt="" class="img-icons">
+              <h5 class="py-3">SEO and<br>Backlinks</h5>
+              <p class="text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+              <a href="#"><p class="readmore-link">Readmore</p></a>
             </div>
-        </section>
-        <section class="edica-landing-section edica-landing-services">
-            <div class="container">
-                <h4 class="edica-landing-section-subtitle">Service We Offer</h4>
-                <h2 class="edica-landing-section-title">What features you will <br> Get from App.</h2>
-                <div class="row">
-                    <div class="col-md-6 landing-service-card" data-aos="fade-right">
-                        <img src="assets/images/picture.svg" alt="card img" class="img-fluid service-card-img">
-                        <h4 class="service-card-title">Live Video</h4>
-                        <p class="service-card-description">He has led a remarkable campaign, defying the traditional mainstream parties courtesy of his En Marche! movement. For many, however, the.</p>
-                    </div>
-                    <div class="col-md-6 landing-service-card" data-aos="fade-left">
-                        <img src="assets/images/internet.svg" alt="card img" class="img-fluid service-card-img">
-                        <h4 class="service-card-title">Secure and Reliable</h4>
-                        <p class="service-card-description">He has led a remarkable campaign, defying the traditional mainstream parties courtesy of his En Marche! movement. For many, however, the.</p>
-                    </div>
-                    <div class="col-md-6 landing-service-card" data-aos="fade-right">
-                        <img src="assets/images/goal.svg" alt="card img" class="img-fluid service-card-img">
-                        <h4 class="service-card-title">Fast. Instantly.</h4>
-                        <p class="service-card-description">He has led a remarkable campaign, defying the traditional mainstream parties courtesy of his En Marche! movement. For many, however, the.</p>
-                    </div>
-                    <div class="col-md-6 landing-service-card" data-aos="fade-left">
-                        <img src="assets/images/chat-bubble.svg" alt="card img" class="img-fluid service-card-img">
-                        <h4 class="service-card-title">Built-in Messenger</h4>
-                        <p class="service-card-description">He has led a remarkable campaign, defying the traditional mainstream parties courtesy of his En Marche! movement. For many, however, the.</p>
-                    </div>
-                </div>
+          </div>
+          <div class="grid-margin d-flex justify-content-end">
+            <div class="features-width">
+              <img src="images/Group5.svg" alt="" class="img-icons">
+              <h5 class="py-3">Content<br>Marketing</h5>
+              <p class="text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+              <a href="#"><p class="readmore-link">Readmore</p></a>
             </div>
-        </section>
-        <section class="edica-landing-section edica-landing-testimonials" data-aos="fade-up">
-            <div class="container">
-                <div id="edicaLandingTestimonialCarousel" class="carousel slide landing-testimonial-carousel" data-ride="carousel">
-                    <div class="text-center py-4">
-                        <img src="assets/images/quote.svg" alt="quote">
-                    </div>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item">
-                            <blockquote class="testimonial">
-                                <p>“My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style.” </p>
-                            </blockquote>
-                        </div>
-                        <div class="carousel-item">
-                            <blockquote class="testimonial">
-                                <p>“My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style.” </p>
-                            </blockquote>
-                        </div>
-                        <div class="carousel-item active">
-                            <blockquote class="testimonial">
-                                <p>“My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style.” </p>
-                            </blockquote>
-                        </div>
-                        <div class="carousel-item">
-                            <blockquote class="testimonial">
-                                <p>“My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style.” </p>
-                            </blockquote>
-                        </div>
-                        <div class="carousel-item">
-                            <blockquote class="testimonial">
-                                <p>“My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style.” </p>
-                            </blockquote>
-                        </div>
-                    </div>
-                    <ol class="carousel-indicators">
-                        <li data-target="#edicaLandingTestimonialCarousel" data-slide-to="0">
-                            <img src="assets/images/oval-copy-3.png" alt="avatar">
-                            <div class="user-details">
-                                <h6>Gabie Sheber</h6>
-                                <p>Developer</p>
-                            </div>
-                        </li>
-                        <li data-target="#edicaLandingTestimonialCarousel" data-slide-to="1">
-                            <img src="assets/images/oval-copy-4.png" alt="avatar">
-                            <div class="user-details">
-                                <h6>Gabie Sheber</h6>
-                                <p>Developer</p>
-                            </div>
-                        </li>
-                        <li data-target="#edicaLandingTestimonialCarousel" data-slide-to="2" class="active">
-                            <img src="assets/images/oval.png" alt="avatar">
-                            <div class="user-details">
-                                <h6>Gabie Sheber</h6>
-                                <p>Developer</p>
-                            </div>
-                           
-                        </li>
-                        <li data-target="#edicaLandingTestimonialCarousel" data-slide-to="3">
-                            <img src="assets/images/oval-copy.png" alt="avatar">
-                            <div class="user-details">
-                                <h6>Gabie Sheber</h6>
-                                <p>Developer</p>
-                            </div>
-                        </li>
-                        <li data-target="#edicaLandingTestimonialCarousel" data-slide-to="4">
-                            <img src="assets/images/oval-copy-2.png" alt="avatar">
-                            <div class="user-details">
-                                <h6>Gabie Sheber</h6>
-                                <p>Developer</p>
-                            </div>
-                        </li>
-                    </ol>
-                </div>
-            </div>
-        </section>
-        <section class="edica-landing-section edica-landing-blog">
-            <div class="container">
-                <h4 class="edica-landing-section-subtitle" data-aos="fade-up">Blog posts</h4>
-                <h2 class="edica-landing-section-title" data-aos="fade-up">Check our app latest blog post <br> for more update.</h2>
-                <div class="row">
-                    <div class="col-md-4 landing-blog-post" data-aos="fade-right">
-                        <img src="assets/images/rectangle.png" alt="blog post" class="blog-post-thumbnail">
-                        <p class="blog-post-category">Blog post</p>
-                        <h4 class="blog-post-title">Check our latest blog post for more update.</h4>
-                        <a href="#!" class="blog-post-link">Learn more</a>
-                    </div>
-                    <div class="col-md-4 landing-blog-post" data-aos="fade-up">
-                        <img src="assets/images/rectangle-copy.png" alt="blog post" class="blog-post-thumbnail">
-                        <p class="blog-post-category">Blog post</p>
-                        <h4 class="blog-post-title">Check our latest blog post for more update.</h4>
-                        <a href="#!" class="blog-post-link">Learn more</a>
-                    </div>
-                    <div class="col-md-4 landing-blog-post" data-aos="fade-left">
-                        <img src="assets/images/rectangle-copy-2.png" alt="blog post" class="blog-post-thumbnail">
-                        <p class="blog-post-category">Blog post</p>
-                        <h4 class="blog-post-title">Check our latest blog post for more update.</h4>
-                        <a href="#!" class="blog-post-link">Learn more</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="edica-landing-section edica-landing-blog-posts">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="blog-post-card blog-post-1 mb-4 mb-md-0" data-aos="fade-right">
-                            <p class="post-category">App Design</p>
-                            <h2 class="post-title">Check our latest blog post for more update.</h2>
-                            <a href="#!" class="post-link">Learn more</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="blog-post-card blog-post-2" data-aos="fade-left">
-                            <p class="post-category">App Design</p>
-                            <h2 class="post-title">Check our latest blog post for more update.</h2>
-                            <a href="#!" class="post-link">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <section class="edica-footer-banner-section">
-        <div class="container">
-            <div class="footer-banner" data-aos="fade-up">
-                <h1 class="banner-title">Download it now.</h1>
-                <div class="banner-btns-wrapper">
-                    <button class="btn btn-success"> <img src="assets/images/apple@1x.svg" alt="ios" class="mr-2"> App Store</button>
-                    <button class="btn btn-success"> <img src="assets/images/android@1x.svg" alt="android" class="mr-2"> Google Play</button>
-                </div>
-                <p class="banner-text">Add some helper text here to explain the finer details of your <br> product or service.</p>
-            </div>
+          </div>
         </div>
-    </section>
-    <footer class="edica-footer" data-aos="fade-up">
-        <div class="container">
-            <div class="row footer-widget-area">
-                <div class="col-md-3">
-                    <a href="index.html" class="footer-brand-wrapper">
-                        <img src="assets/images/logo.svg" alt="edica logo">
-                    </a>
-                    <p class="contact-details">hello@edica.com</p>
-                    <p class="contact-details">+23 3000 000 00</p>
-                    <nav class="footer-social-links">
-                        <a href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#!"><i class="fab fa-twitter"></i></a>
-                        <a href="#!"><i class="fab fa-behance"></i></a>
-                        <a href="#!"><i class="fab fa-dribbble"></i></a>
-                    </nav>
-                </div>
-                <div class="col-md-3">
-                    <nav class="footer-nav">
-                        <a href="#!" class="nav-link">Company</a>
-                        <a href="#!" class="nav-link">Android App</a>
-                        <a href="#!" class="nav-link">ios App</a>
-                        <a href="#!" class="nav-link">Blog</a>
-                        <a href="#!" class="nav-link">Partners</a>
-                        <a href="#!" class="nav-link">Careers</a>
-                    </nav>
-                </div>
-                <div class="col-md-3">
-                    <nav class="footer-nav">
-                        <a href="#!" class="nav-link">FAQ</a>
-                        <a href="#!" class="nav-link">Reporting</a>
-                        <a href="#!" class="nav-link">Block Storage</a>
-                        <a href="#!" class="nav-link">Tools & Integrations</a>
-                        <a href="#!" class="nav-link">API</a>
-                        <a href="#!" class="nav-link">Pricing</a>
-                    </nav>
-                </div>
-                <div class="col-md-3">
-                    <div class="dropdown footer-country-dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="footerCountryDropdown" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
-                                   <span class="flag-icon flag-icon-gb flag-icon-squared"></span> United Kingdom <i class="fas fa-chevron-down ml-2"></i>
-                                </button>
-                        <div class="dropdown-menu" aria-labelledby="footerCountryDropdown">
-                            <button class="dropdown-item" href="#">
-                                    <span class="flag-icon flag-icon-us flag-icon-squared"></span> United States
-                                </button>
-                            <button class="dropdown-item" href="#">
-                                <span class="flag-icon flag-icon-au flag-icon-squared"></span> Australia
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom-content">
-                <nav class="nav footer-bottom-nav">
-                    <a href="#!">Privacy & Policy</a>
-                    <a href="#!">Terms</a>
-                    <a href="#!">Site Map</a>
-                </nav>
-                <p class="mb-0">© Edica. 2020 <a href="https://www.greencrests.com" target="_blank" rel="noopener noreferrer" class="text-reset">greencrests</a> . All rights reserved.</p>
-            </div>
+      </section>     
+      <section class="digital-marketing-service" id="digital-marketing-section">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-7 grid-margin grid-margin-lg-0" data-aos="fade-right">
+            <h3 class="m-0">We Offer a Full Range<br>of Digital Marketing Services!</h3>
+            <div class="col-lg-7 col-xl-6 p-0">
+              <p class="py-4 m-0 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+              <p class="font-weight-medium text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer</p>
+            </div>    
+          </div>
+          <div class="col-12 col-lg-5 p-0 img-digital grid-margin grid-margin-lg-0" data-aos="fade-left">
+            <img src="images/Group1.png" alt="" class="img-fluid">
+          </div>
         </div>
-    </footer>
-    <script src="assets/vendors/popper.js/popper.min.js"></script>
-    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="assets/vendors/aos/aos.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script>
-        AOS.init({
-            duration: 2000
-        });
-      </script>
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-7 text-center flex-item grid-margin" data-aos="fade-right">
+            <img src="images/Group2.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-12 col-lg-5 flex-item grid-margin" data-aos="fade-left">
+            <h3 class="m-0">Leading Digital Agency<br>for  Business Solution.</h3>
+            <div class="col-lg-9 col-xl-8 p-0">
+              <p class="py-4 m-0 text-muted">Power-packed with impressive features and well-optimized, this template is designed to provide the best performance in all circumstances.</p>
+              <p class="pb-2 font-weight-medium text-muted">Its smart features make it a powerful stand-alone website building tool.</p>
+            </div>
+            <button class="btn btn-info">Readmore</button>
+          </div>
+        </div>
+      </section>     
+      <section class="case-studies" id="case-studies-section">
+        <div class="row grid-margin">
+          <div class="col-12 text-center pb-5">
+            <h2>Our case studies</h2>
+            <h6 class="section-subtitle text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum.</h6>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in">
+            <div class="card color-cards">
+              <div class="card-body p-0">
+                <div class="bg-primary text-center card-contents">
+                  <div class="card-image">
+                    <img src="images/Group95.svg" class="case-studies-card-img" alt="">
+                  </div>  
+                  <div class="card-desc-box d-flex align-items-center justify-content-around">
+                    <div>
+                      <h6 class="text-white pb-2 px-3">Know more about Online marketing</h6>
+                      <button class="btn btn-white">Read More</button>
+                    </div>
+                  </div>
+                </div>   
+                <div class="card-details text-center pt-4">
+                    <h6 class="m-0 pb-1">Online Marketing</h6>
+                    <p>Seo, Marketing</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="card color-cards">
+              <div class="card-body p-0">
+                <div class="bg-warning text-center card-contents">
+                  <div class="card-image">
+                      <img src="images/Group108.svg" class="case-studies-card-img" alt="">
+                  </div>  
+                  <div class="card-desc-box d-flex align-items-center justify-content-around">
+                    <div>
+                      <h6 class="text-white pb-2 px-3">Know more about Web Development</h6>
+                      <button class="btn btn-white">Read More</button>
+                    </div>
+                  </div>
+                </div>   
+                <div class="card-details text-center pt-4">
+                    <h6 class="m-0 pb-1">Web Development</h6>
+                    <p>Developing, Designing</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="card color-cards">
+              <div class="card-body p-0">
+                <div class="bg-violet text-center card-contents">
+                  <div class="card-image">
+                      <img src="images/Group126.svg" class="case-studies-card-img" alt="">
+                  </div>  
+                  <div class="card-desc-box d-flex align-items-center justify-content-around">
+                    <div>
+                      <h6 class="text-white pb-2 px-3">Know more about Web Designing</h6>
+                      <button class="btn btn-white">Read More</button>
+                    </div>
+                  </div>
+                </div>   
+                <div class="card-details text-center pt-4">
+                    <h6 class="m-0 pb-1">Web Designing</h6>
+                    <p>Designing, Developing</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 stretch-card" data-aos="zoom-in" data-aos-delay="600">
+            <div class="card color-cards">
+              <div class="card-body p-0">
+                <div class="bg-success text-center card-contents">
+                  <div class="card-image">
+                      <img src="images/Group115.svg" class="case-studies-card-img" alt="">
+                  </div>  
+                  <div class="card-desc-box d-flex align-items-center justify-content-around">
+                    <div>
+                      <h6 class="text-white pb-2 px-3">Know more about Software Development</h6>
+                      <button class="btn btn-white">Read More</button>
+                    </div>
+                  </div>
+                </div>   
+                <div class="card-details text-center pt-4">
+                    <h6 class="m-0 pb-1">Software Development</h6>
+                    <p>Developing, Designing</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>     
+      <section class="customer-feedback" id="feedback-section">
+        <div class="row">
+          <div class="col-12 text-center pb-5">
+            <h2>What our customers have to say</h2>
+            <h6 class="section-subtitle text-muted m-0">Lorem ipsum dolor sit amet, tincidunt vestibulum.</h6>
+          </div>
+          <div class="owl-carousel owl-theme grid-margin">
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="images/face2.jpg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Tony Martinez</h6>
+                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="images/face3.jpg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Sophia Armstrong</h6>
+                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="images/face20.jpg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Cody Lambert</h6>
+                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="images/face15.jpg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Cody Lambert</h6>
+                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="images/face16.jpg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Cody Lambert</h6>
+                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="images/face1.jpg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Tony Martinez</h6>
+                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="images/face2.jpg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Tony Martinez</h6>
+                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="images/face3.jpg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Sophia Armstrong</h6>
+                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="images/face20.jpg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Cody Lambert</h6>
+                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-us" id="contact-section">
+        <div class="contact-us-bgimage grid-margin" >
+          <div class="pb-4">
+            <h4 class="px-3 px-md-0 m-0" data-aos="fade-down">Do you have any projects?</h4>
+            <h4 class="pt-1" data-aos="fade-down">Contact us</h4>
+          </div>
+          <div data-aos="fade-up">
+            <button class="btn btn-rounded btn-outline-danger">Contact us</button>
+          </div>          
+        </div>
+      </section>
+      <section class="contact-details" id="contact-details-section">
+        <div class="row text-center text-md-left">
+          <div class="col-12 col-md-6 col-lg-3 grid-margin">
+            <img src="images/Group2.jpeg" alt="" class="pb-2">
+            <div class="pt-2">
+              <p class="text-muted m-0">mikayla_beer@feil.name</p>
+              <p class="text-muted m-0">906-179-8309</p>
+            </div>         
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 grid-margin">
+            <h5 class="pb-2">Get in Touch</h5>
+            <p class="text-muted">Don’t miss any updates of our new templates and extensions.!</p>
+            <form>
+              <input type="text" class="form-control" id="Email" placeholder="Email id">
+            </form>
+            <div class="pt-3">
+              <button class="btn btn-dark">Subscribe</button>
+            </div>   
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 grid-margin">
+            <h5 class="pb-2">Our Guidelines</h5>
+            <a href="#"><p class="m-0 pb-2">Terms</p></a>   
+            <a href="#" ><p class="m-0 pt-1 pb-2">Privacy policy</p></a> 
+            <a href="#"><p class="m-0 pt-1 pb-2">Cookie Policy</p></a> 
+            <a href="#"><p class="m-0 pt-1">Discover</p></a> 
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 grid-margin">
+              <h5 class="pb-2">Our address</h5>
+              <p class="text-muted">518 Schmeler Neck<br>Bartlett. Illinois</p>
+              <div class="d-flex justify-content-center justify-content-md-start">
+                <a href="#"><span class="mdi mdi-facebook"></span></a>
+                <a href="#"><span class="mdi mdi-twitter"></span></a>
+                <a href="#"><span class="mdi mdi-instagram"></span></a>
+                <a href="#"><span class="mdi mdi-linkedin"></span></a>
+              </div>
+          </div>
+        </div>  
+      </section>
+      <footer class="border-top">
+        <p class="text-center text-muted pt-4">Copyright © 2019<a href="https://www.bootstrapdash.com/" class="px-1">Bootstrapdash.</a>All rights reserved.</p>
+      </footer>
+      <!-- Modal for Contact - us Button -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="exampleModalLabel">Contact Us</h4>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="Name">Name</label>
+                  <input type="text" class="form-control" id="Name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="Email">Email</label>
+                  <input type="email" class="form-control" id="Email-1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <label for="Message">Message</label>
+                  <textarea class="form-control" id="Message" placeholder="Enter your Message"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+  <script src="vendors/jquery/jquery.min.js"></script>
+  <script src="vendors/bootstrap/bootstrap.min.js"></script>
+  <script src="vendors/owl-carousel/js/owl.carousel.min.js"></script>
+  <script src="vendors/aos/js/aos.js"></script>
+  <script src="js/landingpage.js"></script>
 </body>
 </html>
